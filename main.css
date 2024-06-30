@@ -1,0 +1,100 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: "Playwrite IT Moderna", cursive;;
+}
+
+h2, h3, h5 {
+    color: #0f752f;
+    font-weight: bold;
+}
+
+.form-label.fw-bold {
+    color: #0f752f;
+}
+
+.navbar {
+    background-color: #0f752f;
+}
+
+.navbar-brand,
+header .nav .nav-link {
+    color: #faf7ef;
+}
+
+header .nav .nav-link.active {
+    background-color: #faf7ef;
+    color: #0f752f;
+}
+
+.navbar-brand:hover,
+header .nav .nav-link:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #daefe1;
+}
+
+header .nav .nav-link.active:hover {
+    color: #0f752f;
+    background-color: #daefe1;
+}
+
+.carousel-item img {
+    height: 800px;
+}
+
+#sobre,
+#cardapio {
+    background-color: #daefe1;
+}
+
+#eventos,
+#pedido {
+    background-color: #faf7ef;
+}
+
+.nav-cardapio a {
+    color: #0f752f;
+}
+
+.nav-cardapio a:hover {
+    color: #05471a;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #0f752f;
+    color: #faf7ef;
+}
+
+#bebidas img {
+    height: 200px;
+}
+
+footer {
+    background-color: #0f752f;
+    color: #faf7ef;
+}
+
+.social-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #faf7ef;
+}
+
+.social-links li a:hover {
+    color: #daefe1;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    #bebidas img {
+        height: 350px;
+    }
+}
