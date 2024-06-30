@@ -19,6 +19,10 @@ h2, h3, h5 {
     background-color: #0f752f;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
 .navbar-brand,
 header .nav .nav-link {
     color: #faf7ef;
